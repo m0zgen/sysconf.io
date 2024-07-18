@@ -6,17 +6,17 @@
   <section class="pb-20 bg-sysconf-dark" x-data="{ mobileNavOpen: false }">
     <nav class="relative">
       <div class="flex py-8 px-4 lg:px-8 justify-between items-center">
-        <a class="text-2xl text-white font-bold" href="#">
-          <img class="h-7" src="./zospace-assets/logos/zospace-logo.svg" alt="" width="auto">
-        </a>
-        <div class="lg:hidden">
-          <button class="p-2" x-on:click="mobileNavOpen = !mobileNavOpen">
-            <svg class="w-10 h-3" width="39" height="13" viewbox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="39" height="2" rx="1" fill="#C4C4C4"></rect><rect x="19" y="11" width="20" height="2" rx="1" fill="#C4C4C4"></rect></svg>
-          </button>
-        </div>
+        <RouterLink class="text-2xl text-white font-bold" to="/">
+          <img class="h-7" src="@/assets/open-sysconf-logo-start-page.png" alt="" width="auto">
+        </RouterLink>
+<!--        <div class="lg:hidden">-->
+<!--          <button class="p-2" x-on:click="mobileNavOpen = !mobileNavOpen">-->
+<!--            <svg class="w-10 h-3" width="39" height="13" viewbox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="39" height="2" rx="1" fill="#C4C4C4"></rect><rect x="19" y="11" width="20" height="2" rx="1" fill="#C4C4C4"></rect></svg>-->
+<!--          </button>-->
+<!--        </div>-->
         <div class="hidden lg:block absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
           <ul class="flex items-center text-white space-x-10">
-            <li><a class="text-white font-bold text-lg" href="#">Product</a></li>
+            <li><a class="text-white font-bold text-lg" href="#">Главная</a></li>
             <span>
             <svg width="5" height="5" viewbox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="2.5" cy="2.5" r="2.5" fill="#726B6B"></circle></svg>
           </span>

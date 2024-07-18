@@ -38,7 +38,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>Предыдущие годы</template>
 
     Каждый год мы делаем конференцию и каждый раз мы делаем сайт:
-    <a href="https://prev.sysconf.io/" target="_blank" rel="noopener">Prev Sites</a>
+    <a href="https://github.com/m0zgen/sysconf.io/tree/master/public/prev-sites" target="_blank" rel="noopener">Prev Sites</a>
 
   </WelcomeItem>
 </template>
