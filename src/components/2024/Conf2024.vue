@@ -188,7 +188,7 @@
     <div class="relative container px-4 mx-auto">
       <div class="max-w-4xl mx-auto">
         <h2 class="mb-24 text-center text-5xl font-bold font-heading text-white">
-          Место
+          Локация
         </h2>
         <div>
           <a href="https://go.2gis.com/jsxkm" target="_blank">
@@ -199,14 +199,21 @@
             Алматы, Smart.Point
           </h3>
           <p class="mb-4 text-lg text-white font-bold text-center">
-            г. Алматы, ул. Байзакова, 280
+            Место: г. Алматы, ул. Байзакова, 280
           </p>
           <p class="mb-4 text-lg text-white text-center">
-            Октябрь, 2024
+            Время: Октябрь, 2024
           </p>
         </div>
       </div>
     </div>
+  </section>
+
+<!--  Footer-->
+  <section class="py-20 2xl:py-40 bg-sysconf-dark">
+    <p class="text-center text-lg text-white pt-12 px-4 border-t border-gray-500">
+      <span>© 2024 Open SysConf.io </span>
+    </p>
   </section>
 </template>
 
