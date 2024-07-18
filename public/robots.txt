@@ -1,0 +1,26 @@
+# Author Yevgeniy Goncharov aka @sysadminkz, https://sysconf.io
+# https://sysconf.io
+
+User-agent: *
+Disallow: /admin*/
+Disallow: /comp*/
+Disallow: /incl*/
+Disallow: /mod*/
+Disallow: /plug*/
+Disallow: /util*/
+Disallow: /log*/
+Disallow: /tm*/
+Disallow: /te*/
+Disallow: /*&format=pdf
+Disallow: /plus
+Disallow: /ru/plus
+Disallow: /_nuxt
+Disallow: /ru/_nuxt
+Disallow: /en
+Disallow: /dist
+Disallow: /api
+Disallow: /*.
+Disallow: /*.sh$
+
+Host: https://sysconf.io
+Sitemap: https://sysconf.io/sitemap.xml
