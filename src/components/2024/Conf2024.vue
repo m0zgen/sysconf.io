@@ -252,10 +252,13 @@
             Алматы, Smart.Point
           </h3>
           <p class="mb-4 text-lg text-white font-bold text-center">
-            Место: г. Алматы, ул. Байзакова, 280
+            Место: г. Алматы, ул. Байзакова, 280. Зал: Amphitheatre
           </p>
           <p class="mb-4 text-lg text-white text-center">
-            Время: Октябрь, 2024
+            Дата: 12 Октября, 2024
+          </p>
+          <p class="mb-4 text-lg text-white text-center">
+            Время: с 10:00 до 18:00
           </p>
         </div>
       </div>
