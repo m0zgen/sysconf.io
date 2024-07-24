@@ -271,7 +271,7 @@
         </h2>
         <span>
           <p class="mb-4 text-lg text-white text-center">
-            Спасибо всем, кто помогает нам SysConf.io.
+            Спасибо всем, кто помогает делать Open SysConf.io.
           </p>
         </span>
         <div>
@@ -290,6 +290,10 @@
   <section class="py-10 2xl:py-20 bg-sysconf-dark">
     <p class="text-center text-lg text-white pt-12 px-4 border-t border-gray-950">
       <span>© 2024 Open SysConf.io </span>
+      <i class="fa-brands fa-github"></i> <a href="https://github.com/m0zgen/sysconf.io" target="_blank">
+      GitHub
+    </a>
+
     </p>
   </section>
 </template>
