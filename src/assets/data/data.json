@@ -1,0 +1,90 @@
+{
+    "footer_links": [
+        {
+            "name": "Telegram Chat",
+            "link": "https://t.me/OpenSysConf"
+        },
+        {
+            "name": "InfoSec Channel",
+            "link": "https://t.me/sysadm_in_channel"
+        }
+    ],
+    "thanks": [
+        {
+            "name": "Алексей Антошевский",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Алибек Бекенов",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Алмас",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Бауыржан",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Дмитрий Толкачев",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Дмитрий Бубнов",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Есенай Балмуханов",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Игорь Г.",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Мурат",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Нелля",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Роман",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Сабыржан",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Татьяна",
+            "url": "#",
+            "style": "#"
+        },
+        {
+            "name": "Женя",
+            "url": "#",
+            "style": "#"
+        }
+    ],
+    "frendly_sources": [
+        {
+            "name": "Sys-Adm.in",
+            "link": "https://sys-adm.in"
+        }
+    ]
+}
