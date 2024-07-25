@@ -21,3 +21,38 @@ a, .green {
 .bg-sysconf-dark {
   background-color: #0B0D11;
 }
+
+.s-border-white {
+  /*border-radius: 5px;*/
+  padding: 3px;
+  border: 1px solid #52597D;
+  outline: 2px solid #FFFFFF;
+}
+
+.s-border-gray {
+  /*border-radius: 5px;*/
+  padding: 3px;
+  border: 1px solid #52597D;
+  outline: 2px solid #A0AEC0;
+}
+
+.s-border-yellow {
+  /*border-radius: 5px;*/
+  padding: 3px;
+  border: 1px solid #52597D;
+  outline: 2px solid #AC6B41;
+}
+
+.s-border-green {
+  /*border-radius: 5px;*/
+  padding: 3px;
+  border: 1px solid #52597D;
+  outline: 2px solid #4ADEB2;
+}
+
+.s-border-pink {
+  /*border-radius: 5px;*/
+  padding: 3px;
+  border: 1px solid #52597D;
+  outline: 2px solid #FF6B81;
+}

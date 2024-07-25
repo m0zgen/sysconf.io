@@ -85,7 +85,7 @@
         <div class="flex flex-wrap justify-center -mx-10 mb-20">
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-yellow"
                    src="@/assets/stub/sysconf-hero-alexey.jpeg" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Алексей
@@ -100,7 +100,7 @@
           </div>
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div class="lg:mt-24">
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-green"
                    src="@/assets/stub/sysconf-hero-baur.jpeg" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Бауыржан
@@ -115,7 +115,7 @@
           </div>
           <div class="w-full lg:w-1/3 px-10">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-pink"
                    src="@/assets/stub/sysconf-hero-tatyana1.jpeg" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Татьяна
@@ -134,7 +134,7 @@
         <div class="flex flex-wrap justify-center -mx-10 mb-20">
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-white"
                    src="@/assets/stub/sysconf-slot-busy.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                  Slot is busy
@@ -149,7 +149,7 @@
           </div>
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div class="lg:mt-24">
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
                    src="@/assets/stub/stub-dark.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Empty Slot
@@ -164,7 +164,7 @@
           </div>
           <div class="w-full lg:w-1/3 px-10">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
                    src="@/assets/stub/stub-dark.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Empty Slot
@@ -183,7 +183,7 @@
         <div class="flex flex-wrap justify-center -mx-10 mb-20">
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
                    src="@/assets/stub/stub-dark.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Empty Slot
@@ -198,7 +198,7 @@
           </div>
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div class="lg:mt-24">
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
                    src="@/assets/stub/stub-dark.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Empty Slot
@@ -213,7 +213,7 @@
           </div>
           <div class="w-full lg:w-1/3 px-10">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-white"
                    src="@/assets/stub/sysconf-hero-yevgeniy.jpeg" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Женя
