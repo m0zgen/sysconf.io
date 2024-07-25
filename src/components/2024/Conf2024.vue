@@ -37,17 +37,13 @@
           <p class="mb-12 lg:mb-16 2xl:mb-24 text-xl text-gray-100">
             Изучая новое, ты становишься лучше. Поддерживая других, ты делаешь мир лучше. Присоединяйся.
           </p>
-          <a class="inline-block px-12 text-lg text-white font-bold bg-amber-600 hover:bg-amber-700 rounded-full transition duration-200"
-             target="_blank"
-             href="https://docs.google.com/forms/d/e/1FAIpQLScqfFY_Utmo0OA5UHZJ_bv2gIGViE3HvYR66og7trKf6EI-ig/viewform?usp=sf_link">
-            Стань докладчиком
-          </a>
-          <a class="inline-block ml-3 px-12 text-lg text-white font-bold bg-amber-500 hover:bg-amber-700 rounded-full transition duration-200"
-             target="_blank"
-             href="https://docs.google.com/forms/d/e/1FAIpQLSdxsH2rgdLhRhmVbsmrcI-nVELh9HjqT9QPATddnG7MLZ1N4A/viewform?usp=sf_link">
-            Стань участником
-          </a>
+
+<!--          Join Buttons-->
+          <div class="flex flex-wrap items-center -mx-4 mb-20 2xl:mb-14">
+            <JoinButtons />
+          </div>
         </div>
+
         <!--        Welcome logo-->
         <div class="w-full lg:w-1/2 px-4">
           <img class="w-full" src="@/assets/open-sysconf-logo-2024.png" alt="">
@@ -139,12 +135,12 @@
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div>
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
-                   src="@/assets/stub/stub-dark.png" alt="">
+                   src="@/assets/stub/sysconf-slot-busy.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Expert Name
+                 Slot is busy
               </h3>
               <p class="mb-4 text-lg text-white font-bold">
-                Unit name
+                Cool man
               </p>
               <p class="mb-4 text-lg text-white">
                 Will soon.
@@ -156,7 +152,7 @@
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
                    src="@/assets/stub/stub-dark.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Expert Name
+                Empty Slot
               </h3>
               <p class="mb-4 text-lg text-white font-bold">
                 Unit name
@@ -171,7 +167,7 @@
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
                    src="@/assets/stub/stub-dark.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Expert Name
+                Empty Slot
               </h3>
               <p class="mb-4 text-lg text-white font-bold">
                 Unit name
@@ -190,7 +186,7 @@
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
                    src="@/assets/stub/stub-dark.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Expert Name
+                Empty Slot
               </h3>
               <p class="mb-4 text-lg text-white font-bold">
                 Unit name
@@ -205,7 +201,7 @@
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top"
                    src="@/assets/stub/stub-dark.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Expert Name
+                Empty Slot
               </h3>
               <p class="mb-4 text-lg text-white font-bold">
                 Unit name
@@ -255,13 +251,18 @@
             Место: г. Алматы, ул. Байзакова, 280. Зал: Amphitheatre
           </p>
           <p class="mb-4 text-lg text-white text-center">
-            Дата: 12 Октября, 2024
+            Время: с 10:00 до 18:00
           </p>
           <p class="mb-4 text-lg text-white text-center">
-            Время: с 10:00 до 18:00
+            Дата: 12 Октября, 2024
           </p>
         </div>
       </div>
+
+      <div class="relative mx-auto text-center">
+        <JoinButtons />
+      </div>
+
     </div>
   </section>
 
@@ -303,8 +304,12 @@
 
 <script>
 import dataUsers from "@/assets/data/data.json";
+import JoinButtons from "@/components/2024/JoinButtons.vue";
 
 export default {
+  components: {
+    JoinButtons,
+  },
   data() {
     return {
       users: dataUsers,
