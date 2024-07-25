@@ -291,24 +291,18 @@
   </section>
 
   <!--  Footer-->
-  <section class="py-10 2xl:py-20 bg-sysconf-dark">
-    <p class="text-center text-lg text-white pt-12 px-4 border-t border-gray-950">
-      <span>© 2024 Open SysConf.io </span>
-      <i class="fa-brands fa-github"></i> <a href="https://github.com/m0zgen/sysconf.io" target="_blank">
-      GitHub
-    </a>
-
-    </p>
-  </section>
+  <FooterComponent />
 </template>
 
 <script>
 import dataUsers from "@/assets/data/data.json";
 import JoinButtons from "@/components/2024/JoinButtons.vue";
+import FooterComponent from "@/components/reusable/FooterComponent.vue";
 
 export default {
   components: {
     JoinButtons,
+    FooterComponent,
   },
   data() {
     return {

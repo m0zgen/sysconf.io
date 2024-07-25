@@ -43,7 +43,8 @@ import DocumentationIcon from "@/components/icons/IconDocumentation.vue";
 
           <main>
             <StartItems />
-            <strong>Current route path:</strong> {{ $route.fullPath }}
+<!--            Breadcrumbs-->
+<!--            <Breadcrumbs />-->
           </main>
 
         </div>
@@ -52,8 +53,23 @@ import DocumentationIcon from "@/components/icons/IconDocumentation.vue";
     </div>
   </section>
 
+  <!--  Footer-->
+  <FooterComponent />
+
 
 </template>
+
+<script>
+import Breadcrumbs from "@/components/reusable/breadcrumbs.vue";
+import FooterComponent from "@/components/reusable/FooterComponent.vue";
+
+export default {
+  components: {
+    Breadcrumbs,
+    FooterComponent,
+  },
+};
+</script>
 
 <style scoped>
 header {
