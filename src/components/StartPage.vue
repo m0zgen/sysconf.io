@@ -1,7 +1,7 @@
 <script setup>
 import StartLogoSlogan from './StartPageLogo.vue'
 import StartItems from './StartPageItems.vue'
-import WelcomeItem from "@/components/WelcomeItem.vue";
+import WelcomeItem from "@/components/reusable/WelcomeItem.vue";
 import ToolingIcon from "@/components/icons/IconTooling.vue";
 import DocumentationIcon from "@/components/icons/IconDocumentation.vue";
 
