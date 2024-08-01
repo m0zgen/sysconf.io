@@ -150,15 +150,15 @@
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div class="lg:mt-24">
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/stub-dark.png" alt="">
+                   src="@/assets/stub/sysconf-slot-busy-2.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Empty Slot
+                Zhassulan
               </h3>
               <p class="mb-4 text-lg text-white font-bold">
-                Unit name
+                Malware Rsearcher
               </p>
               <p class="mb-4 text-lg text-white">
-                Will soon.
+                Как злоумышленники могут получать персональные данные
               </p>
             </div>
           </div>
