@@ -155,7 +155,7 @@
                 Zhassulan
               </h3>
               <p class="mb-4 text-lg text-white font-bold">
-                Malware Rsearcher
+                Malware Researcher
               </p>
               <p class="mb-4 text-lg text-white">
                 Как злоумышленники могут получать персональные данные
