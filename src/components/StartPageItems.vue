@@ -37,8 +37,11 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Предыдущие годы</template>
 
-    Каждый год мы делаем конференцию и каждый раз мы делаем сайт:
-    <a href="https://github.com/m0zgen/sysconf.io/tree/master/arc/prev-sites" target="_blank" rel="noopener">Prev Sites</a>
+    Каждый год мы делаем конференцию сайты предыдущих встреч:
+    <a href="https://23.sysconf.io/" target="_blank">SysConf'23</a>,
+    <a href="https://22.sysconf.io/" target="_blank">SysConf'22</a>,
+    <a href="https://m0zgen.github.io/sysconf-nuxt-site/sysconf-21" target="_blank">SysConf'21</a>,
+    <a href="https://19.sysconf.io/" target="_blank">SysConf'19</a>
 
   </WelcomeItem>
 </template>
