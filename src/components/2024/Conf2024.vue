@@ -86,8 +86,8 @@
         <div class="flex flex-wrap justify-center -mx-10 mb-20">
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-yellow"
-                   src="@/assets/stub/sysconf-hero-alexey.jpeg" alt="">
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
+                   src="@/assets/stub/2024/alexey-a.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Алексей
               </h3>
@@ -101,8 +101,8 @@
           </div>
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div class="lg:mt-24">
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-green"
-                   src="@/assets/stub/sysconf-hero-baur.jpeg" alt="">
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
+                   src="@/assets/stub/2024/bauyrzhan-t.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Бауыржан
               </h3>
@@ -116,8 +116,8 @@
           </div>
           <div class="w-full lg:w-1/3 px-10">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-pink"
-                   src="@/assets/stub/sysconf-hero-tatyana1.jpeg" alt="">
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
+                   src="@/assets/stub/2024/tatyana-k.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Татьяна
               </h3>
@@ -135,23 +135,23 @@
         <div class="flex flex-wrap justify-center -mx-10 mb-20">
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-white"
-                   src="@/assets/stub/sysconf-slot-busy.png" alt="">
+              <figure><img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
+                           src="@/assets/stub/2024/nuray.png" alt=""></figure>
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                 Slot is busy
+                Нурай
               </h3>
               <p class="mb-4 text-lg text-white font-bold">
-                Cool man
+                Refactorial
               </p>
               <p class="mb-4 text-lg text-white">
-                Will soon.
+                Рефакторинг архитектуры экосистемы приложений
               </p>
             </div>
           </div>
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div class="lg:mt-24">
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/sysconf-slot-busy-2.png" alt="">
+                   src="@/assets/stub/2024/wanted-stub-2.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Zhassulan
               </h3>
@@ -166,7 +166,7 @@
           <div class="w-full lg:w-1/3 px-10">
             <div>
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/stub-muborashko.jpg" alt="">
+                   src="@/assets/stub/2024/muborashko.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Муборакшо
               </h3>
@@ -185,22 +185,23 @@
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div>
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/stub-nurai.jpg" alt="">
+                   src="@/assets/stub/2024/wanted-stub.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Нурай
+                Slot is busy
               </h3>
               <p class="mb-4 text-lg text-white font-bold">
-                Refactorial
+                Cool man
               </p>
               <p class="mb-4 text-lg text-white">
-                Рефакторинг архитектуры экосистемы приложений
+                Will soon.
               </p>
             </div>
           </div>
+
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div class="lg:mt-24">
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/stub-microscheme.png" alt="">
+                   src="@/assets/stub/2024/andrey.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Андрей
               </h3>
@@ -214,8 +215,8 @@
           </div>
           <div class="w-full lg:w-1/3 px-10">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-white"
-                   src="@/assets/stub/stub-victor-ussr.jpg" alt="">
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
+                   src="@/assets/stub/2024/viktor.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Виктор
               </h3>
@@ -232,8 +233,8 @@
         <div class="flex flex-wrap justify-center -mx-10 mb-20">
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/stub-dark.png" alt="">
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-dark"
+                   src="@/assets/stub/2024/empty-slot.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Empty Slot
               </h3>
@@ -248,7 +249,7 @@
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div class="lg:mt-24">
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/sysconf-hero-yevgeniy.jpeg" alt="">
+                   src="@/assets/stub/2024/sysadminkz.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Женя
               </h3>
@@ -262,8 +263,8 @@
           </div>
           <div class="w-full lg:w-1/3 px-10">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-white"
-                   src="@/assets/stub/stub-dark.png" alt="">
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-dark"
+                   src="@/assets/stub/2024/empty-slot.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Empty Slot
               </h3>

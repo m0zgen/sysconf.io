@@ -29,11 +29,18 @@ a, .green {
   outline: 2px solid #FFFFFF;
 }
 
+.s-border-dark {
+  /*border-radius: 5px;*/
+  padding: 3px;
+  border: 1px solid #0b0d11;
+  outline: 2px solid #14171e;
+}
+
 .s-border-gray {
   /*border-radius: 5px;*/
   padding: 3px;
-  border: 1px solid #52597D;
-  outline: 2px solid #A0AEC0;
+  border: 1px solid #232323;
+  outline: 2px solid #24272b;
 }
 
 .s-border-yellow {
