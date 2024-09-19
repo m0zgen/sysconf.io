@@ -36,6 +36,7 @@
           </h2>
           <p class="mb-12 lg:mb-16 2xl:mb-24 text-xl text-gray-100">
             Изучая новое, ты становишься лучше. Поддерживая других, ты делаешь мир лучше. Присоединяйся.
+            <a href="#place">Время, место. регистрация.</a>
           </p>
 
 <!--          Join Buttons-->
@@ -281,7 +282,7 @@
   </section>
 
   <!--  Place-->
-  <section class="relative py-10 2xl:py-20 bg-sysconf-dark overflow-hidden border-t border-gray-800">
+  <section id="place" class="relative py-10 2xl:py-20 bg-sysconf-dark overflow-hidden border-t border-gray-800">
     <div class="relative container px-4 mx-auto">
       <div class="max-w-4xl mx-auto">
         <h2 class="mb-24 text-center text-5xl font-bold font-heading text-white">
