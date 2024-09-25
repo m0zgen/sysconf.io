@@ -63,3 +63,7 @@ a, .green {
   border: 1px solid #52597D;
   outline: 2px solid #FF6B81;
 }
+
+.has-text-primary {
+  color: yellow;
+}
