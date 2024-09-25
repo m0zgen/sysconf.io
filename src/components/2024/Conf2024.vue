@@ -151,7 +151,7 @@
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div class="lg:mt-24">
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/2024/wanted-stub-2.png" alt="">
+                   src="@/assets/stub/2024/zhassulan-z.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Zhassulan
               </h3>
@@ -234,15 +234,15 @@
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div>
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-dark"
-                   src="@/assets/stub/2024/empty-slot.png" alt="">
+                   src="@/assets/stub/2024/t2micro-i.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Empty Slot
+                Ilyas
               </h3>
               <p class="mb-4 text-lg text-white font-bold">
-                Unit Name
+                Cloud infrastructure and automation
               </p>
               <p class="mb-4 text-lg text-white">
-                Description
+                PCI-DSS v4.0
               </p>
             </div>
           </div>
