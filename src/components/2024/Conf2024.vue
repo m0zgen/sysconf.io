@@ -166,25 +166,6 @@
           <div class="w-full lg:w-1/3 px-10">
             <div>
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/2024/muborashko.png" alt="">
-              <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Муборакшо
-              </h3>
-              <p class="mb-4 text-lg text-white font-bold">
-                SA-DevOps
-              </p>
-              <p class="mb-4 text-lg text-white">
-                Исторический обзор развития командных оболочек в UNIX-системах
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!--        Row 3-->
-        <div class="flex flex-wrap justify-center -mx-10 mb-20">
-          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
-            <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
                    src="@/assets/stub/2024/wanted-stub.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Slot is busy
@@ -197,43 +178,13 @@
               </p>
             </div>
           </div>
-
-          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
-            <div class="lg:mt-24">
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/2024/andrey.png" alt="">
-              <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Андрей
-              </h3>
-              <p class="mb-4 text-lg text-white font-bold">
-                System/Security Engineer
-              </p>
-              <p class="mb-4 text-lg text-white">
-                Аппаратная и программная реализация проверки безопасности микросхем
-              </p>
-            </div>
-          </div>
-          <div class="w-full lg:w-1/3 px-10">
-            <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/2024/viktor.png" alt="">
-              <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Виктор
-              </h3>
-              <p class="mb-4 text-lg text-white font-bold">
-                IT Problem Solver
-              </p>
-              <p class="mb-4 text-lg text-white">
-                Как работает Enterprise Architect
-              </p>
-            </div>
-          </div>
         </div>
-        <!--        Row 4-->
+
+        <!--        Row 3-->
         <div class="flex flex-wrap justify-center -mx-10 mb-20">
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-dark"
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
                    src="@/assets/stub/2024/t2micro-i.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Ilyas
@@ -246,8 +197,24 @@
               </p>
             </div>
           </div>
-          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
-            <div class="lg:mt-24">
+
+<!--          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">-->
+<!--            <div class="lg:mt-24">-->
+<!--              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"-->
+<!--                   src="@/assets/stub/2024/sysadminkz.png" alt="">-->
+<!--              <h3 class="mb-2 text-3xl text-white font-bold font-heading">-->
+<!--                Женя-->
+<!--              </h3>-->
+<!--              <p class="mb-4 text-lg text-white font-bold">-->
+<!--                ДНК Инженер-->
+<!--              </p>-->
+<!--              <p class="mb-4 text-lg text-white">-->
+<!--                Синтез молекулярных единиц-->
+<!--              </p>-->
+<!--            </div>-->
+<!--          </div>-->
+          <div class="w-full lg:w-1/3 px-10">
+            <div>
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
                    src="@/assets/stub/2024/sysadminkz.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
@@ -261,22 +228,55 @@
               </p>
             </div>
           </div>
-          <div class="w-full lg:w-1/3 px-10">
-            <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-dark"
-                   src="@/assets/stub/2024/empty-slot.png" alt="">
-              <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Empty Slot
-              </h3>
-              <p class="mb-4 text-lg text-white font-bold">
-                Unit Name
-              </p>
-              <p class="mb-4 text-lg text-white">
-                Description
-              </p>
-            </div>
-          </div>
         </div>
+<!--        &lt;!&ndash;        Row 4&ndash;&gt;-->
+<!--        <div class="flex flex-wrap justify-center -mx-10 mb-20">-->
+<!--          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">-->
+<!--            <div>-->
+<!--              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-dark"-->
+<!--                   src="@/assets/stub/2024/t2micro-i.png" alt="">-->
+<!--              <h3 class="mb-2 text-3xl text-white font-bold font-heading">-->
+<!--                Ilyas-->
+<!--              </h3>-->
+<!--              <p class="mb-4 text-lg text-white font-bold">-->
+<!--                Cloud infrastructure and automation-->
+<!--              </p>-->
+<!--              <p class="mb-4 text-lg text-white">-->
+<!--                PCI-DSS v4.0-->
+<!--              </p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">-->
+<!--            <div class="lg:mt-24">-->
+<!--              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"-->
+<!--                   src="@/assets/stub/2024/sysadminkz.png" alt="">-->
+<!--              <h3 class="mb-2 text-3xl text-white font-bold font-heading">-->
+<!--                Женя-->
+<!--              </h3>-->
+<!--              <p class="mb-4 text-lg text-white font-bold">-->
+<!--                ДНК Инженер-->
+<!--              </p>-->
+<!--              <p class="mb-4 text-lg text-white">-->
+<!--                Синтез молекулярных единиц-->
+<!--              </p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="w-full lg:w-1/3 px-10">-->
+<!--            <div>-->
+<!--              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-dark"-->
+<!--                   src="@/assets/stub/2024/empty-slot.png" alt="">-->
+<!--              <h3 class="mb-2 text-3xl text-white font-bold font-heading">-->
+<!--                Empty Slot-->
+<!--              </h3>-->
+<!--              <p class="mb-4 text-lg text-white font-bold">-->
+<!--                Unit Name-->
+<!--              </p>-->
+<!--              <p class="mb-4 text-lg text-white">-->
+<!--                Description-->
+<!--              </p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
       </div>
     </div>
 
