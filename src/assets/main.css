@@ -22,6 +22,10 @@ a, .green {
   background-color: #0B0D11;
 }
 
+.bg-syscong-dark-blue {
+  background-color: #111827;
+}
+
 .s-border-white {
   /*border-radius: 5px;*/
   padding: 3px;

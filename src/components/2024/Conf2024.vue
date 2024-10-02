@@ -340,6 +340,45 @@
     </div>
   </section>
 
+<!--  Info support-->
+  <section class="relative py-10 2xl:py-20 bg-sysconf-dark-blue overflow-hidden border-t border-gray-800">
+    <div class="container px-4 mx-auto">
+      <h2 class="mb-8 text-center text-lg md:text-2xl text-white">
+        Информационная поддержка
+      </h2>
+      <div class="flex flex-wrap -m-4">
+        <div class="w-1/2 lg:w-1/4 p-4">
+          <div class="py-4 lg:py-8">
+            <a href="https://lab.sys-adm.in/" target="_blank">
+              <img class="mx-auto" src="@/assets/logos/lab.sys-adm.in-logo.png" alt="Sys-Adm.in Lab">
+            </a>
+          </div>
+        </div>
+        <div class="w-1/2 lg:w-1/4 p-4">
+          <div class="py-4 lg:py-8">
+            <a href="https://nitroteam.kz/" target="_blank">
+              <img class="mx-auto" src="@/assets/logos/nitroteam.kz.png" alt="NitroTeam.kz">
+            </a>
+          </div>
+        </div>
+        <div class="w-1/2 lg:w-1/4 p-4">
+          <div class="py-4 lg:py-8">
+            <a href="https://t.me/s/mikrotikninja" target="_blank">
+              <img class="mx-auto" src="@/assets/logos/mikrotik_ninja.png" alt="Mikrotik Ninja">
+            </a>
+          </div>
+        </div>
+        <div class="w-1/2 lg:w-1/4 p-4">
+          <div class="py-4 lg:py-8">
+            <a href="https://profit.kz/" target="_blank">
+              <img class="mx-auto" src="@/assets/logos/logo-profit.kz.png" alt="Profit.kz">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!--  Footer-->
   <FooterComponent />
 </template>
