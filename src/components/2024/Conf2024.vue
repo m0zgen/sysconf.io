@@ -166,15 +166,15 @@
           <div class="w-full lg:w-1/3 px-10">
             <div>
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/2024/wanted-stub.png" alt="">
+                   src="@/assets/stub/2024/viktor.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Slot is busy
+                Виктор
               </h3>
               <p class="mb-4 text-lg text-white font-bold">
-                Cool man
+                IT Problem Solver
               </p>
               <p class="mb-4 text-lg text-white">
-                Will soon.
+                Как работает Enterprise Architect
               </p>
             </div>
           </div>
@@ -184,6 +184,22 @@
         <div class="flex flex-wrap justify-center -mx-10 mb-20">
           <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
             <div>
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
+                   src="@/assets/stub/2024/andrey.png" alt="">
+              <h3 class="mb-2 text-3xl text-white font-bold font-heading">
+                Андрей
+              </h3>
+              <p class="mb-4 text-lg text-white font-bold">
+                System/Security Engineer
+              </p>
+              <p class="mb-4 text-lg text-white">
+                Аппаратная и программная реализация проверки безопасности микросхем
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
+            <div class="lg:mt-24">
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
                    src="@/assets/stub/2024/t2micro-i.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
@@ -197,25 +213,27 @@
               </p>
             </div>
           </div>
-
-<!--          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">-->
-<!--            <div class="lg:mt-24">-->
-<!--              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"-->
-<!--                   src="@/assets/stub/2024/sysadminkz.png" alt="">-->
-<!--              <h3 class="mb-2 text-3xl text-white font-bold font-heading">-->
-<!--                Женя-->
-<!--              </h3>-->
-<!--              <p class="mb-4 text-lg text-white font-bold">-->
-<!--                ДНК Инженер-->
-<!--              </p>-->
-<!--              <p class="mb-4 text-lg text-white">-->
-<!--                Синтез молекулярных единиц-->
-<!--              </p>-->
-<!--            </div>-->
-<!--          </div>-->
           <div class="w-full lg:w-1/3 px-10">
             <div>
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
+                   src="@/assets/stub/2024/wanted-stub.png" alt="">
+              <h3 class="mb-2 text-3xl text-white font-bold font-heading">
+                Маргулан
+              </h3>
+              <p class="mb-4 text-lg text-white font-bold">
+                InfoSec Engineer
+              </p>
+              <p class="mb-4 text-lg text-white">
+                In progress...
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--        Row 4-->
+        <div class="flex flex-wrap justify-center -mx-10 mb-20">
+          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
+            <div>
+              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-dark"
                    src="@/assets/stub/2024/sysadminkz.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Женя
@@ -228,36 +246,18 @@
               </p>
             </div>
           </div>
-        </div>
-<!--        &lt;!&ndash;        Row 4&ndash;&gt;-->
-<!--        <div class="flex flex-wrap justify-center -mx-10 mb-20">-->
-<!--          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">-->
-<!--            <div>-->
-<!--              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-dark"-->
-<!--                   src="@/assets/stub/2024/t2micro-i.png" alt="">-->
-<!--              <h3 class="mb-2 text-3xl text-white font-bold font-heading">-->
-<!--                Ilyas-->
-<!--              </h3>-->
-<!--              <p class="mb-4 text-lg text-white font-bold">-->
-<!--                Cloud infrastructure and automation-->
-<!--              </p>-->
-<!--              <p class="mb-4 text-lg text-white">-->
-<!--                PCI-DSS v4.0-->
-<!--              </p>-->
-<!--            </div>-->
-<!--          </div>-->
 <!--          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">-->
 <!--            <div class="lg:mt-24">-->
 <!--              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"-->
-<!--                   src="@/assets/stub/2024/sysadminkz.png" alt="">-->
+<!--                   src="@/assets/stub/2024/empty-slot.png" alt="">-->
 <!--              <h3 class="mb-2 text-3xl text-white font-bold font-heading">-->
-<!--                Женя-->
+<!--                Empty Slot-->
 <!--              </h3>-->
 <!--              <p class="mb-4 text-lg text-white font-bold">-->
-<!--                ДНК Инженер-->
+<!--                Unit Name-->
 <!--              </p>-->
 <!--              <p class="mb-4 text-lg text-white">-->
-<!--                Синтез молекулярных единиц-->
+<!--                Unit Status-->
 <!--              </p>-->
 <!--            </div>-->
 <!--          </div>-->
@@ -276,7 +276,7 @@
 <!--              </p>-->
 <!--            </div>-->
 <!--          </div>-->
-<!--        </div>-->
+        </div>
       </div>
     </div>
 
@@ -301,7 +301,7 @@
             Место: г. Алматы, ул. Байзакова, 280. Зал: Amphitheatre
           </p>
           <p class="mb-4 text-lg text-white text-center">
-            Время: с 10:00 до 18:00
+            Время: с 10:00 до 20:00
           </p>
           <p class="mb-4 text-lg text-white text-center">
             Дата: 12 Октября, 2024
