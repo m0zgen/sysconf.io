@@ -71,3 +71,7 @@ a, .green {
 .has-text-primary {
   color: yellow;
 }
+
+.logo-bg-white {
+  background-color: #FFFFFF;
+}

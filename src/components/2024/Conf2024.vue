@@ -377,6 +377,19 @@
         </div>
       </div>
     </div>
+
+    <!-- Create div for one centered logo -->
+    <div class="flex justify-center -mt-5">
+      <div class="w-1/2 lg:w-1/4 pl-4 pr-4">
+        <div >
+          <a href="https://t.me/it_kz" target="_blank">
+            <img class="mx-auto logo-bg-white" src="@/assets/logos/ast-cyber-lab.png" alt="IT_KZ">
+          </a>
+        </div>
+      </div>
+    </div>
+
+
   </section>
 
   <!--  Footer-->
