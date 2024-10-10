@@ -216,24 +216,6 @@
           <div class="w-full lg:w-1/3 px-10">
             <div>
               <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"
-                   src="@/assets/stub/2024/wanted-stub.png" alt="">
-              <h3 class="mb-2 text-3xl text-white font-bold font-heading">
-                Маргулан
-              </h3>
-              <p class="mb-4 text-lg text-white font-bold">
-                InfoSec Engineer
-              </p>
-              <p class="mb-4 text-lg text-white">
-                In progress...
-              </p>
-            </div>
-          </div>
-        </div>
-        <!--        Row 4-->
-        <div class="flex flex-wrap justify-center -mx-10 mb-20">
-          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
-            <div>
-              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-dark"
                    src="@/assets/stub/2024/sysadminkz.png" alt="">
               <h3 class="mb-2 text-3xl text-white font-bold font-heading">
                 Женя
@@ -246,6 +228,24 @@
               </p>
             </div>
           </div>
+        </div>
+        <!--        Row 4-->
+<!--        <div class="flex flex-wrap justify-center -mx-10 mb-20">-->
+<!--          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">-->
+<!--            <div>-->
+<!--              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-dark"-->
+<!--                   src="@/assets/stub/2024/sysadminkz.png" alt="">-->
+<!--              <h3 class="mb-2 text-3xl text-white font-bold font-heading">-->
+<!--                Женя-->
+<!--              </h3>-->
+<!--              <p class="mb-4 text-lg text-white font-bold">-->
+<!--                ДНК Инженер-->
+<!--              </p>-->
+<!--              <p class="mb-4 text-lg text-white">-->
+<!--                Синтез молекулярных единиц-->
+<!--              </p>-->
+<!--            </div>-->
+<!--          </div>-->
 <!--          <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">-->
 <!--            <div class="lg:mt-24">-->
 <!--              <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top s-border-gray"-->
@@ -276,7 +276,7 @@
 <!--              </p>-->
 <!--            </div>-->
 <!--          </div>-->
-        </div>
+<!--        </div>-->
       </div>
     </div>
 
