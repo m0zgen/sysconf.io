@@ -382,8 +382,22 @@
     <div class="flex justify-center -mt-5">
       <div class="w-1/2 lg:w-1/4 pl-4 pr-4">
         <div >
+          <a href="https://qcloudy.io/" target="_blank">
+            <img class="mx-auto logo-bg-white" src="@/assets/logos/qcloudy.png" alt="IT_KZ">
+          </a>
+        </div>
+      </div>
+      <div class="w-1/2 lg:w-1/4 pl-4 pr-4">
+        <div >
           <a href="https://t.me/it_kz" target="_blank">
             <img class="mx-auto logo-bg-white" src="@/assets/logos/ast-cyber-lab.png" alt="IT_KZ">
+          </a>
+        </div>
+      </div>
+      <div class="w-1/2 lg:w-1/4 pl-4 pr-4">
+        <div >
+          <a href="https://core247.kz/" target="_blank">
+            <img class="mx-auto logo-bg-white" src="@/assets/logos/core24.png" alt="IT_KZ">
           </a>
         </div>
       </div>
