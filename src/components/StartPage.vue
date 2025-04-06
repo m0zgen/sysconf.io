@@ -29,9 +29,9 @@ import DocumentationIcon from "@/components/icons/IconDocumentation.vue";
               <template #icon>
                 <i class="fa-solid fa-arrow-right"></i>
               </template>
-              <template #heading>Open SysConf'24</template>
+              <template #heading>Open SysConf'25</template>
 
-              Шестая ежегодная конференция <router-link to="/2024">Welcome!</router-link>
+              Седьмая ежегодная конференция <router-link to="/2025">Welcome!</router-link>
             </WelcomeItem>
 
           </div>
