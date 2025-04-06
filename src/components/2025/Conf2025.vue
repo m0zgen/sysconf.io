@@ -1,58 +1,195 @@
 <script setup>
+import MatrixRain from "@/components/reusable/MatrixRain.vue";
 
 </script>
 
 <template>
-  <section class="min-h-screen flex flex-col justify-between items-center bg-sysconf-dark font-mono text-sysconf-green text-center px-4">
+  <section class="relative min-h-screen flex flex-col justify-between items-center bg-sysconf-dark font-mono text-sysconf-green text-center px-4 overflow-hidden">
 
-    <!-- Center Content -->
-    <main class="flex flex-col items-center justify-center flex-1 max-w-2xl w-full space-y-6">
+    <!-- Matrix rain background -->
+    <MatrixRain />
 
-      <!-- Лого -->
+    <!-- Content over rain -->
+    <main class="relative z-10 flex flex-col items-center justify-center flex-1 max-w-2xl w-full space-y-6">
+
+      <!-- Logo 2025 -->
       <div class="max-w-lg w-full">
-        <img class="w-full mx-auto" src="@/assets/open-sysconf-logo-2025.png" alt="Open SysConf 2025">
+        <img class="w-full mx-auto" src="@/assets/images/2025/open-sysconf-logo-2025-old-style.png" alt="Open SysConf 2025">
       </div>
 
-      <!-- Слоган -->
-      <h1 class="text-2xl md:text-4xl font-bold">
-        Быть профи — не кнопка, а привычка<span class="animate-pulse">_</span>
+      <!-- Typewriter -->
+      <h1 class="typewriter font-fira font-normal">
+        Быть профи — не фича. Это состояние.
       </h1>
 
-      <!-- Подзаголовок -->
+      <!-- Subtitle -->
       <p class="text-sm md:text-base">
         Каждый день — шаг к лучшей версии себя.
         <br />
         <span class="text-white">Open SysConf'25</span> — твой следующий шаг.
       </p>
 
-      <!-- Кнопки -->
+      <!-- Btns -->
       <div class="flex flex-wrap justify-center gap-4 mt-6">
-
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeEgqhrfNCVmUQ1bIv_Jv4uL-y97d-kufl84RXBHsGfIOplfQ/viewform?usp=dialog"
-           target="_blank"
-           class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition">
+        <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeEgqhrfNCVmUQ1bIv_Jv4uL-y97d-kufl84RXBHsGfIOplfQ/viewform?usp=dialog"
+            target="_blank"
+            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"
+        >
           Отправить доклад
         </a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvODOfncBn04EqujgI2LSblDDdGa59Cficmw3aCxnhiD0_uQ/viewform?usp=dialog"
-           target="_blank"
-           class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition">
+        <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfvODOfncBn04EqujgI2LSblDDdGa59Cficmw3aCxnhiD0_uQ/viewform?usp=dialog"
+            target="_blank"
+            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"
+        >
           Стать волонтером
         </a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSevXe9neuhlrXYXidJDYzungzBH5U9S4q7wlj9aYCnGgd8NgA/viewform?usp=dialog"
-           target="_blank"
-           class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition">
+        <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSevXe9neuhlrXYXidJDYzungzBH5U9S4q7wlj9aYCnGgd8NgA/viewform?usp=dialog"
+            target="_blank"
+            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"
+        >
           Регистрация
         </a>
       </div>
     </main>
 
     <!-- Footer -->
-    <footer class="py-6 text-xm text-green-600">
-      <span>Open SysConf.io © 2019 - {{ new Date().getFullYear() }}. </span>
+    <footer class="relative z-10 py-6 text-xs text-green-600">
+      Open SysConf.io © 2019 - {{ new Date().getFullYear() }}.
     </footer>
-
   </section>
 </template>
+
+<style scoped>
+
+/* === CRT === */
+.bg-sysconf-dark {
+  position: relative;
+  background-color: #010807;
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(0, 255, 0, 0.05) 0px,
+      rgba(0, 255, 0, 0.05) 1px,
+      transparent 1px,
+      transparent 2px
+  );
+  background-size: 100% 2px;
+  min-height: 100vh;
+  overflow: hidden;
+  animation: terminalOn 1.2s ease-out;
+}
+
+/* Noise */
+.bg-sysconf-dark::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml;utf8,\
+    <svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'>\
+      <filter id='noiseFilter'>\
+        <feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/>\
+      </filter>\
+      <rect width='100%' height='100%' filter='url(#noiseFilter)' opacity='0.03'/>\
+    </svg>");
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* "enable terminal" effect */
+@keyframes terminalOn {
+  0% {
+    opacity: 0;
+    transform: scaleY(0.8) scaleX(1.05);
+    filter: brightness(150%);
+  }
+  60% {
+    opacity: 1;
+    transform: scaleY(1.05) scaleX(0.95);
+    filter: brightness(100%);
+  }
+  100% {
+    transform: scale(1);
+    filter: none;
+  }
+}
+
+/* text + btns - CRT style */
+.text-sysconf-green {
+  color: #00ff00;
+}
+h1, p, a {
+  text-shadow: 0 0 4px #00ff00, 0 0 10px #00ff00;
+}
+
+/* Кнопки при ховере */
+a:hover {
+  box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+}
+
+/* Mono font */
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('@/assets/fonts/fira_code/FiraCode-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('@/assets/fonts/fira_code/FiraCode-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('@/assets/fonts/fira_code/FiraCode-SemiBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('@/assets/fonts/fira_code/FiraCode-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.font-fira {
+  font-family: 'Fira Code', monospace;
+}
+
+* {
+  font-family: 'Fira Code', monospace;
+}
+
+/* === Typewriter === */
+.typewriter {
+  width: 100%;
+  max-width: 40ch;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #00ff00;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 40ch }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #00ff00 }
+}
+</style>
+
 
 
 <script>
@@ -74,6 +211,3 @@ export default {
 
 </script>
 
-<style scoped>
-
-</style>
