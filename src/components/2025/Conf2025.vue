@@ -29,6 +29,11 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
         <span class="text-white">Open SysConf'25</span> — твой следующий шаг.
       </p>
 
+      <!-- Place and Date -->
+      <p class="text-sm md:text-base">
+        <span class="text-white">Алматы, Казахстан</span> — 4 октября 2025 года.
+      </p>
+
       <!-- Btns -->
       <div class="flex flex-wrap justify-center gap-4 mt-6">
         <a
@@ -53,6 +58,12 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
           Регистрация
         </a>
       </div>
+
+      <!-- Place and Date -->
+      <p class="text-sm md:text-base">
+        <span class="text-white">Место: Amphitheatre, SmArt.Point</span> — г. Алматы, ул. Байзакова, 280.
+      </p>
+
     </main>
 
     <!-- Footer -->
