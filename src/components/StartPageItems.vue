@@ -12,9 +12,10 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Прошедшие конференеции</template>
+    <template #heading>Все конференеции</template>
 
     Инфо:
+    <router-link to="/2025">SysConf'25</router-link>,
     <router-link to="/2024">SysConf'24</router-link>,
     <a href="https://23.sysconf.io/" target="_blank">SysConf'23</a>,
     <a href="https://22.sysconf.io/" target="_blank">SysConf'22</a>,
@@ -40,7 +41,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <CommunityIcon />
     </template>
-    <template #heading>О конференции</template>
+    <template #heading>Интро</template>
 
     Open SysConf - это общение, передача информации между специалистами ИТ и смежных областей.
     <RouterLink to="/about">Подробнее</RouterLink>
