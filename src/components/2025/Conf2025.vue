@@ -29,11 +29,6 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
         <span class="text-white">Open SysConf'25</span> — твой следующий шаг.
       </p>
 
-      <!-- Place and Date -->
-      <p class="text-sm md:text-base">
-        <span class="text-white">Алматы, Казахстан</span> — 4 октября 2025 года.
-      </p>
-
       <!-- Btns -->
       <div class="flex flex-wrap justify-center gap-4 mt-6">
         <a
@@ -66,8 +61,53 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
 
       <!-- Place and Date -->
       <p class="text-sm md:text-base">
+        <span class="text-white">Алматы, Казахстан → </span>4 октября 2025 года.
+      </p>
+
+      <!-- Place and Date -->
+      <p class="text-sm md:text-base">
         <span class="text-white">Место: Amphitheatre, SmArt.Point → </span>г. Алматы, ул. Байзакова, 280.
       </p>
+
+      <!-- Spikers section -->
+      <section class="w-full mt-16">
+        <h2 class="text-xl md:text-2xl font-bold mb-8">Наши будущие спикеры</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div
+              v-for="n in 6"
+              :key="n"
+              class="flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10 hover:shadow-neon"
+          >
+            <!-- Заглушка фото -->
+            <div class="w-24 h-24 rounded-full bg-green-900/30 border border-green-500 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">👤</span>
+            </div>
+
+            <!-- Имя -->
+            <h3 class="text-lg font-semibold mb-1">Spiker #{{ n }}</h3>
+
+            <!-- Должность -->
+            <p class="text-xs text-green-400 mb-2">DevOps / Hacker / Founder</p>
+
+            <!-- Тема -->
+            <p class="text-sm text-green-300 text-center">
+              Coming soon...
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA button -->
+      <div class="mt-10 flex justify-center">
+        <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeEgqhrfNCVmUQ1bIv_Jv4uL-y97d-kufl84RXBHsGfIOplfQ/viewform?usp=dialog"
+            target="_blank"
+            class="bg-transparent border border-sysconf-green text-sysconf-green px-6 py-3 hover:bg-sysconf-green hover:text-black transition font-semibold rounded-lg"
+        >
+          Я хочу выступить
+        </a>
+      </div>
 
     </main>
 
