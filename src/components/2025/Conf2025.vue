@@ -85,7 +85,7 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
             </div>
 
             <!-- Имя -->
-            <h3 class="text-lg font-semibold mb-1">Spiker #{{ n }}</h3>
+            <h3 class="text-lg font-semibold mb-1">Speaker #{{ n }}</h3>
 
             <!-- Должность -->
             <p class="text-xs text-green-400 mb-2">DevOps / Hacker / Founder</p>
