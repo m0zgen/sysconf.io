@@ -59,9 +59,14 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
         </a>
       </div>
 
+      <!-- Speech stats -->
+      <p class="text-sm md:text-base">
+        <span class="text-white">Докладов на рассмотрении → </span> 2.
+      </p>
+
       <!-- Place and Date -->
       <p class="text-sm md:text-base">
-        <span class="text-white">Место: Amphitheatre, SmArt.Point</span> — г. Алматы, ул. Байзакова, 280.
+        <span class="text-white">Место: Amphitheatre, SmArt.Point → </span>г. Алматы, ул. Байзакова, 280.
       </p>
 
     </main>
