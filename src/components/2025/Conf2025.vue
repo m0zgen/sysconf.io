@@ -75,7 +75,7 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div
-              v-for="n in 6"
+              v-for="n in 3"
               :key="n"
               class="flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10 hover:shadow-neon"
           >
@@ -92,7 +92,7 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
 
             <!-- Тема -->
             <p class="text-sm text-green-300 text-center">
-              Coming soon...
+              Забронировано. Coming soon...
             </p>
           </div>
         </div>
