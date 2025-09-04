@@ -31,20 +31,20 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
 
       <!-- Btns -->
       <div class="flex flex-wrap justify-center gap-4 mt-6">
-        <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeEgqhrfNCVmUQ1bIv_Jv4uL-y97d-kufl84RXBHsGfIOplfQ/viewform?usp=dialog"
-            target="_blank"
-            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"
-        >
-          Отправить доклад
-        </a>
-        <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfvODOfncBn04EqujgI2LSblDDdGa59Cficmw3aCxnhiD0_uQ/viewform?usp=dialog"
-            target="_blank"
-            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"
-        >
-          Стать волонтером
-        </a>
+<!--        <a-->
+<!--            href="https://docs.google.com/forms/d/e/1FAIpQLSeEgqhrfNCVmUQ1bIv_Jv4uL-y97d-kufl84RXBHsGfIOplfQ/viewform?usp=dialog"-->
+<!--            target="_blank"-->
+<!--            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"-->
+<!--        >-->
+<!--          Отправить доклад-->
+<!--        </a>-->
+<!--        <a-->
+<!--            href="https://docs.google.com/forms/d/e/1FAIpQLSfvODOfncBn04EqujgI2LSblDDdGa59Cficmw3aCxnhiD0_uQ/viewform?usp=dialog"-->
+<!--            target="_blank"-->
+<!--            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"-->
+<!--        >-->
+<!--          Стать волонтером-->
+<!--        </a>-->
         <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSevXe9neuhlrXYXidJDYzungzBH5U9S4q7wlj9aYCnGgd8NgA/viewform?usp=dialog"
             target="_blank"
@@ -56,7 +56,7 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
 
       <!-- Speech stats -->
       <p class="text-sm md:text-base">
-        <span class="text-white">Докладов на рассмотрении → </span> 2.
+        <span class="text-white">Докладов на рассмотрении → </span> 8.
       </p>
 
       <!-- Place and Date -->
@@ -74,40 +74,153 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
         <h2 class="text-xl md:text-2xl font-bold mb-8">Наши будущие спикеры</h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div
-              v-for="n in 6"
-              :key="n"
-              class="flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10 hover:shadow-neon"
-          >
-            <!-- Заглушка фото -->
+          <!-- Роман -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10">
             <div class="w-24 h-24 rounded-full bg-green-900/30 border border-green-500 mb-4 overflow-hidden flex items-center justify-center">
-              <span class="text-3xl">👤</span>
+              <span class="text-3xl">👨‍💻</span>
             </div>
-
-            <!-- Имя -->
-            <h3 class="text-lg font-semibold mb-1">Speaker #{{ n }}</h3>
-
-            <!-- Должность -->
-            <p class="text-xs text-green-400 mb-2">DevOps / Hacker / Founder</p>
-
-            <!-- Тема -->
+            <h3 class="text-lg font-semibold mb-1">Роман</h3>
+            <p class="text-xs text-green-400 mb-2">Infrastructure Engineer в Indrive</p>
             <p class="text-sm text-green-300 text-center">
-              Забронировано. Coming soon...
+              Мониторинг, как в нем не утонуть.
+            </p>
+          </div>
+
+          <!-- Бауыржан -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24 rounded-full bg-green-900/30 border border-green-500 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">🧠</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Бауыржан</h3>
+            <p class="text-xs text-green-400 mb-2">Malware Analyst / Reverse Engineer</p>
+            <p class="text-sm text-green-300 text-center">
+              Использование MCP и LLM для анализа вредоносного ПО.
+            </p>
+          </div>
+
+          <!-- Жаслан -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24 rounded-full bg-green-900/30 border border-green-500 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">🚀</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Жаслан</h3>
+            <p class="text-xs text-green-400 mb-2">Robolabs / Стартапы</p>
+            <p class="text-sm text-green-300 text-center">
+              Как запустить два AI-стартапа (dapmeet.kz, marbix.io) за месяц и не сойти с ума.
+            </p>
+          </div>
+
+          <!-- Виктор -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24 rounded-full bg-green-900/30 border border-green-500 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">🔧</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Виктор</h3>
+            <p class="text-xs text-green-400 mb-2">20+ лет в ИТ</p>
+            <p class="text-sm text-green-300 text-center">
+              Как автоматизировать целый объект: на примере хакспейса Black Ice.
+            </p>
+          </div>
+
+          <!-- Жасулан -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24 rounded-full bg-green-900/30 border border-green-500 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">🧬</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Жасулан</h3>
+            <p class="text-xs text-green-400 mb-2">Malware Researcher</p>
+            <p class="text-sm text-green-300 text-center">
+              История о MacOS malware: от "безопасной по умолчанию" до реальных угроз криптографии и ядра.
+            </p>
+          </div>
+
+          <!-- Денис -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24 rounded-full bg-green-900/30 border border-green-500 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">🏗️</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Денис</h3>
+            <p class="text-xs text-green-400 mb-2">System Architect</p>
+            <p class="text-sm text-green-300 text-center">
+              Архитектура ПО для сисадминов: монолит, микросервисы, C4, принципы и стили.
+            </p>
+          </div>
+
+          <!-- Алексей -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24 rounded-full bg-green-900/30 border border-green-500 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">🎯</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Алексей</h3>
+            <p class="text-xs text-green-400 mb-2">PS Cloud / Linux Admin</p>
+            <p class="text-sm text-green-300 text-center">
+              “Вопрос со звёздочкой” с собеседований: разбор и подходы.
+            </p>
+          </div>
+
+          <!-- Женя -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24 rounded-full bg-green-900/30 border border-green-500 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">🏎</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Женя</h3>
+            <p class="text-xs text-green-400 mb-2">OpenBLD.net</p>
+            <p class="text-sm text-green-300 text-center">
+              Цеопчки DNS атак на примере малвари под macOS
             </p>
           </div>
         </div>
+
+        <!-- CTA button -->
+        <div class="mt-10 flex justify-center">
+          <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeEgqhrfNCVmUQ1bIv_Jv4uL-y97d-kufl84RXBHsGfIOplfQ/viewform?usp=dialog"
+              target="_blank"
+              class="bg-transparent border border-sysconf-green text-sysconf-green px-6 py-3 hover:bg-sysconf-green hover:text-black transition font-semibold rounded-lg"
+          >
+            Я хочу выступить
+          </a>
+        </div>
       </section>
 
+      <!--      <section class="w-full mt-16">-->
+<!--        <h2 class="text-xl md:text-2xl font-bold mb-8">Наши будущие спикеры</h2>-->
+
+<!--        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">-->
+<!--          <div-->
+<!--              v-for="n in 6"-->
+<!--              :key="n"-->
+<!--              class="flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10 hover:shadow-neon"-->
+<!--          >-->
+<!--            &lt;!&ndash; Заглушка фото &ndash;&gt;-->
+<!--            <div class="w-24 h-24 rounded-full bg-green-900/30 border border-green-500 mb-4 overflow-hidden flex items-center justify-center">-->
+<!--              <span class="text-3xl">👤</span>-->
+<!--            </div>-->
+
+<!--            &lt;!&ndash; Имя &ndash;&gt;-->
+<!--            <h3 class="text-lg font-semibold mb-1">Speaker #{{ n }}</h3>-->
+
+<!--            &lt;!&ndash; Должность &ndash;&gt;-->
+<!--            <p class="text-xs text-green-400 mb-2">DevOps / Hacker / Founder</p>-->
+
+<!--            &lt;!&ndash; Тема &ndash;&gt;-->
+<!--            <p class="text-sm text-green-300 text-center">-->
+<!--              Забронировано. Coming soon...-->
+<!--            </p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </section>-->
+
       <!-- CTA button -->
-      <div class="mt-10 flex justify-center">
-        <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeEgqhrfNCVmUQ1bIv_Jv4uL-y97d-kufl84RXBHsGfIOplfQ/viewform?usp=dialog"
-            target="_blank"
-            class="bg-transparent border border-sysconf-green text-sysconf-green px-6 py-3 hover:bg-sysconf-green hover:text-black transition font-semibold rounded-lg"
-        >
-          Я хочу выступить
-        </a>
-      </div>
+<!--      <div class="mt-10 flex justify-center">-->
+<!--        <a-->
+<!--            href="https://docs.google.com/forms/d/e/1FAIpQLSeEgqhrfNCVmUQ1bIv_Jv4uL-y97d-kufl84RXBHsGfIOplfQ/viewform?usp=dialog"-->
+<!--            target="_blank"-->
+<!--            class="bg-transparent border border-sysconf-green text-sysconf-green px-6 py-3 hover:bg-sysconf-green hover:text-black transition font-semibold rounded-lg"-->
+<!--        >-->
+<!--          Я хочу выступить-->
+<!--        </a>-->
+<!--      </div>-->
 
     </main>
 
