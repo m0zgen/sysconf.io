@@ -188,12 +188,10 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
         <div class="flex flex-wrap justify-center gap-4 text-sysconf-green text-sm md:text-base font-mono">
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Роман</span>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Алибек</span>
-          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Жангар</span>
+          <a href="https://www.linkedin.com/in/zzhanabek" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-green-500 rounded-md bg-green-900/30 hover:bg-green-800/50 text-green-300 hover:text-green-100 transition">Жангар</a>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Денис</span>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Нурбиби</span>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Василий</span>
-          <a href="https://t.me/romandev" target="_blank" rel="noopener noreferrer" class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md hover:bg-green-800/50 transition">Роман</a>
-          <a href="https://github.com/alibek-ai" target="_blank" rel="noopener noreferrer" class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md hover:bg-green-800/50 transition">Алибек</a>
         </div>
       </section>
 
