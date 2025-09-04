@@ -217,7 +217,7 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
                     href="/"
                     class="bg-transparent border border-sysconf-green text-sysconf-green px-6 py-3 hover:bg-sysconf-green hover:text-black transition font-semibold rounded-lg"
                 >
-                  на Гланую
+                  на Главную
                 </a>
               </div>
       </section>
