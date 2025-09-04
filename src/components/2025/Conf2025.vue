@@ -192,6 +192,8 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Денис</span>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Нурбиби</span>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Василий</span>
+          <a href="https://t.me/romandev" target="_blank" rel="noopener noreferrer" class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md hover:bg-green-800/50 transition">Роман</a>
+          <a href="https://github.com/alibek-ai" target="_blank" rel="noopener noreferrer" class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md hover:bg-green-800/50 transition">Алибек</a>
         </div>
       </section>
 
@@ -209,6 +211,17 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
             <img src="@/assets/logos/logo-qosi.kz.png" alt="QOSI.kz" class="h-16 md:h-24 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />
           </a>
         </div>
+      </section>
+
+      <section>
+              <div class="mt-10 flex justify-center">
+                <a
+                    href="/"
+                    class="bg-transparent border border-sysconf-green text-sysconf-green px-6 py-3 hover:bg-sysconf-green hover:text-black transition font-semibold rounded-lg"
+                >
+                  на Гланую
+                </a>
+              </div>
       </section>
 
 
