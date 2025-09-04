@@ -56,7 +56,7 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
 
       <!-- Speech stats -->
       <p class="text-sm md:text-base">
-        <span class="text-white">Докладов на рассмотрении → </span> 8.
+        <span class="text-white">Докладов → </span> 8.
       </p>
 
       <!-- Place and Date -->
@@ -71,7 +71,7 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
 
       <!-- Spikers section -->
       <section class="w-full mt-16">
-        <h2 class="text-xl md:text-2xl font-bold mb-8">Наши будущие спикеры</h2>
+        <h2 class="text-xl md:text-2xl font-bold mb-8">Наши спикеры</h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Роман -->
@@ -166,22 +166,51 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
             <h3 class="text-lg font-semibold mb-1">Женя</h3>
             <p class="text-xs text-green-400 mb-2">OpenBLD.net</p>
             <p class="text-sm text-green-300 text-center">
-              Цеопчки DNS атак на примере малвари под macOS
+              Цепочки DNS на примере малвари под macOS
             </p>
           </div>
         </div>
+      </section>
 
-        <!-- CTA button -->
-        <div class="mt-10 flex justify-center">
-          <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeEgqhrfNCVmUQ1bIv_Jv4uL-y97d-kufl84RXBHsGfIOplfQ/viewform?usp=dialog"
-              target="_blank"
-              class="bg-transparent border border-sysconf-green text-sysconf-green px-6 py-3 hover:bg-sysconf-green hover:text-black transition font-semibold rounded-lg"
-          >
-            Я хочу выступить
+      <!-- 📍 Локация -->
+      <section class="w-full mt-24 text-center">
+        <h2 class="text-xl md:text-2xl font-bold mb-4">Локация проведения</h2>
+        <p class="text-green-400 mb-6">Smart.Point Almaty</p>
+        <div class="max-w-3xl mx-auto rounded-lg overflow-hidden shadow-lg border border-sysconf-green">
+          <img src="@/assets/images/smartpoint-location.jpg" alt="Smartpoint Almaty" class="w-full object-cover" />
+          <a href="https://go.2gis.com/DxUeW" target="_blank">Смотреть на 2Gis</a>
+        </div>
+      </section>
+
+      <!-- 🧑‍💻 Имена участников -->
+      <section class="w-full mt-20 text-center">
+        <h2 class="text-xl md:text-2xl font-bold mb-6">Спасибо за помощь</h2>
+        <div class="flex flex-wrap justify-center gap-4 text-sysconf-green text-sm md:text-base font-mono">
+          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Роман</span>
+          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Алибек</span>
+          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Жангар</span>
+          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Денис</span>
+          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Нурбиби</span>
+          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Василий</span>
+        </div>
+      </section>
+
+      <!-- 🧩 Партнёры -->
+      <section class="w-full mt-16 text-center">
+        <h2 class="text-xl md:text-2xl font-bold mb-6">При поддержке</h2>
+        <div class="flex flex-wrap justify-center gap-8 items-center">
+          <a href="https://lab.sys-adm.in" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/logos/lab.sys-adm.in-logo.png" alt="Sys-Adm.in Lab" class="h-16 md:h-24 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />
+          </a>
+          <a href="https://profit.kz" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/logos/logo-profit.kz.png" alt="Profit.kz" class="h-16 md:h-24 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />
+          </a>
+          <a href="https://qosi.kz" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/logos/logo-qosi.kz.png" alt="QOSI.kz" class="h-16 md:h-24 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />
           </a>
         </div>
       </section>
+
 
       <!--      <section class="w-full mt-16">-->
 <!--        <h2 class="text-xl md:text-2xl font-bold mb-8">Наши будущие спикеры</h2>-->
