@@ -208,6 +208,9 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
           <a href="https://qosi.kz" target="_blank" rel="noopener noreferrer">
             <img src="@/assets/logos/logo-qosi.kz.png" alt="QOSI.kz" class="h-16 md:h-24 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />
           </a>
+          <a href="https://do-tek.io" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/logos/Do-Tek-Logo-Cutted.png" alt="Do-Tek LLC" class="h-16 md:h-24 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />
+          </a>
         </div>
       </section>
 
