@@ -192,6 +192,8 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Денис</span>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Нурбиби</span>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Василий</span>
+          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Татьяна</span>
+
         </div>
       </section>
 
