@@ -98,12 +98,12 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
             </p>
           </div>
 
-          <!-- Жаслан -->
+          <!-- Жаслан, Абдусалам -->
           <div class="glitch-card flex flex-col items-center p-4 border border-sysconf-green text-sysconf-green rounded-lg bg-transparent transition hover:bg-sysconf-green/10">
             <div class="w-24 h-24 rounded-full bg-green-900/30 border border-green-500 mb-4 overflow-hidden flex items-center justify-center">
               <span class="text-3xl">🚀</span>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Жаслан</h3>
+            <h3 class="text-lg font-semibold mb-1">Абдусалам</h3>
             <p class="text-xs text-green-400 mb-2">Robolabs / Стартапы</p>
             <p class="text-sm text-green-300 text-center">
               Как запустить два AI-стартапа (dapmeet.kz, marbix.io) за месяц и не сойти с ума.
