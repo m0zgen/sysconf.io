@@ -61,7 +61,7 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
 
       <!-- Place and Date -->
       <p class="text-sm md:text-base">
-        <span class="text-white">Алматы, Казахстан → </span>4 октября 2025 года.
+        <span class="text-white">Алматы, Казахстан → </span>4 октября 2025 года, 10:00 утра.
       </p>
 
       <!-- Place and Date -->
