@@ -184,9 +184,13 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
           <a href="https://www.linkedin.com/in/zzhanabek" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-green-500 rounded-md bg-green-900/30 hover:bg-green-800/50 text-green-300 hover:text-green-100 transition">Жангар</a>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Денис</span>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Нурбиби</span>
+          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Саша</span>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Василий</span>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Татьяна</span>
           <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Есенай</span>
+          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Станислав</span>
+          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Светлана</span>
+          <span class="px-3 py-1 bg-green-900/30 border border-green-500 rounded-md">Игорь</span>
 
         </div>
       </section>
