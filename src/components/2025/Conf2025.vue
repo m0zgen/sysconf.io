@@ -45,13 +45,13 @@ import MatrixRain from "@/components/reusable/MatrixRain.vue";
 <!--        >-->
 <!--          Стать волонтером-->
 <!--        </a>-->
-        <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSevXe9neuhlrXYXidJDYzungzBH5U9S4q7wlj9aYCnGgd8NgA/viewform?usp=dialog"
-            target="_blank"
-            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"
-        >
-          Регистрация
-        </a>
+<!--        <a-->
+<!--            href="https://docs.google.com/forms/d/e/1FAIpQLSevXe9neuhlrXYXidJDYzungzBH5U9S4q7wlj9aYCnGgd8NgA/viewform?usp=dialog"-->
+<!--            target="_blank"-->
+<!--            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"-->
+<!--        >-->
+<!--          Регистрация-->
+<!--        </a>-->
       </div>
 
       <!-- Speech stats -->
