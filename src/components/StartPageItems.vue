@@ -15,6 +15,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>Все конференеции</template>
 
     Инфо:
+    <router-link to="/2026">SysConf'26</router-link>,
     <router-link to="/2025">SysConf'25</router-link>,
     <router-link to="/2024">SysConf'24</router-link>,
     <a href="https://23.sysconf.io/" target="_blank">SysConf'23</a>,
