@@ -88,11 +88,13 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
         <h2 class="text-xl md:text-2xl font-bold mb-6">Поддержка</h2>
         <div class="flex flex-wrap justify-center gap-4 text-sysconf-green text-sm md:text-base font-mono">
           <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Егор</span>
-          <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Мурат</span>
+          <a href="https://t.me/onebrick" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
+            @manfromkz
+          </a>
           <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Есенай</span>
           <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Бауыржан</span>
-          <a href="https://openbld.net" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
-            Женя
+          <a href="https://t.me/sysadm_in_channel" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
+            @sysadminkz
           </a>
           <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Алибек</span>
           <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Василий</span>

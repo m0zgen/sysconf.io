@@ -18,7 +18,7 @@ let intervalId = null;
 const letters =
     "░▒▓█▌▐◆◇◢◣◤◥△▽◇◆01ABCDEFGHIJKLMNOPQRSTUVWXYZSYSOPENCONF26";
 
-const fontSize = 16;
+const fontSize = 12;
 
 function resizeCanvas(canvas) {
   canvas.width = window.innerWidth;
@@ -30,7 +30,7 @@ function resizeCanvas(canvas) {
 
 function draw(canvas) {
   // фиолетовый CRT fade
-  ctx.fillStyle = "rgba(6, 0, 14, 0.075)";
+  ctx.fillStyle = "rgba(6, 0, 14, 0.055)";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   ctx.font = `${fontSize}px 'Fira Code', 'JetBrains Mono', monospace`;
