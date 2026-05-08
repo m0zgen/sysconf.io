@@ -56,7 +56,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
 
       <!-- Speech stats -->
       <p class="text-sm md:text-base">
-        <span class="text-white">Докладов → </span> в процессе
+        <span class="text-white">Доклады → </span> в процессе
       </p>
 
       <!-- Place and Date -->
@@ -71,6 +71,100 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
 <!--      </p>-->
 
       <!-- Spikers section -->
+      <section class="w-full mt-16">
+        <h2 class="text-xl md:text-2xl font-bold mb-8">Наши спикеры</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- 1 -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24 rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">🐙</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
+            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <p class="text-sm text-green-300 text-center">
+              Speech
+            </p>
+          </div>
+
+          <!-- 2 -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">👻</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
+            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <p class="text-sm text-green-300 text-center">
+              Speech
+            </p>
+          </div>
+
+          <!-- 3 -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">🤖</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
+            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <p class="text-sm text-green-300 text-center">
+              Speech
+            </p>
+          </div>
+
+          <!-- 4 -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">👾</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
+            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <p class="text-sm text-green-300 text-center">
+              Speech
+            </p>
+          </div>
+
+          <!-- 5 -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">🛸</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
+            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <p class="text-sm text-green-300 text-center">
+              Speech
+            </p>
+          </div>
+
+          <!-- 6 -->
+          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24  rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">🐲</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
+            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <p class="text-sm text-green-300 text-center">
+              Speech
+            </p>
+          </div>
+
+        </div>
+
+        <!-- 7 -->
+        <div class="w-full flex justify-center mt-6">
+          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24 rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">
+              <span class="text-3xl">👽</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
+            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <p class="text-sm text-green-300 text-center">
+              Speech
+            </p>
+          </div>
+        </div>
+
+
+      </section>
 
 
       <!-- 📍 Локация -->
