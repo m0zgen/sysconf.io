@@ -78,7 +78,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
           <!-- 1 -->
           <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
             <div class="w-24 h-24 rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">
-              <span class="text-3xl">🐙</span>
+              <span class="text-3xl">🍀</span>
             </div>
             <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
             <p class="text-xs text-green-400 mb-2">Speaker Job</p>
