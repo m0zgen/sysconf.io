@@ -31,27 +31,27 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
 
       <!-- Btns -->
       <div class="flex flex-wrap justify-center gap-4 mt-6">
-<!--        <a-->
-<!--            href="https://docs.google.com/forms/d/e/1FAIpQLSeEgqhrfNCVmUQ1bIv_Jv4uL-y97d-kufl84RXBHsGfIOplfQ/viewform?usp=dialog"-->
-<!--            target="_blank"-->
-<!--            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"-->
-<!--        >-->
-<!--          Отправить доклад-->
-<!--        </a>-->
-<!--        <a-->
-<!--            href="https://docs.google.com/forms/d/e/1FAIpQLSfvODOfncBn04EqujgI2LSblDDdGa59Cficmw3aCxnhiD0_uQ/viewform?usp=dialog"-->
-<!--            target="_blank"-->
-<!--            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"-->
-<!--        >-->
-<!--          Стать волонтером-->
-<!--        </a>-->
-<!--        <a-->
-<!--            href="https://docs.google.com/forms/d/e/1FAIpQLSevXe9neuhlrXYXidJDYzungzBH5U9S4q7wlj9aYCnGgd8NgA/viewform?usp=dialog"-->
-<!--            target="_blank"-->
-<!--            class="bg-transparent border border-sysconf-green text-sysconf-green px-4 py-2 hover:bg-sysconf-green hover:text-white transition"-->
-<!--        >-->
-<!--          Регистрация-->
-<!--        </a>-->
+        <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScO_W8SpkG1jXpoRYUz68yYXt2bs4TIzGNvWu73HxcT_VciIw/viewform?usp=publish-editor"
+            target="_blank"
+            class="bg-transparent border border-sysconf-green text-blue-300 px-4 py-2 hover:bg-sysconf-green hover:text-white transition"
+        >
+          Отправить доклад
+        </a>
+        <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSermZKju6dZbLrXx5LeC2Pxw2e4PtU_k5MURksJzOFMsBePtA/viewform?usp=publish-editor"
+            target="_blank"
+            class="bg-transparent border border-sysconf-green text-purple-300 px-4 py-2 hover:bg-sysconf-green hover:text-white transition"
+        >
+          Стать волонтером
+        </a>
+        <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSekxY5LMjmicYQk0tEmTOEmC9sIpX8QMA0uNsILcknTgbmxyw/viewform?usp=publish-editor"
+            target="_blank"
+            class="bg-transparent border border-sysconf-green text-green-300 px-4 py-2 hover:bg-sysconf-green hover:text-white transition"
+        >
+          Регистрация
+        </a>
       </div>
 
       <!-- Speech stats -->
