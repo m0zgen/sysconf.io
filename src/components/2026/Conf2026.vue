@@ -78,7 +78,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
           <!-- 1 -->
           <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
             <div class="w-24 h-24 rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">
-              <span class="text-3xl">🍀</span>
+<!--              <span class="text-3xl">🍀</span>-->
+              <div class="max-w-lg w-full">
+                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_stars.png" alt="Open SysConf 2026">
+              </div>
             </div>
             <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
             <p class="text-xs text-green-400 mb-2">Speaker Job</p>
@@ -90,7 +93,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
           <!-- 2 -->
           <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
             <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">
-              <span class="text-3xl">👻</span>
+<!--              <span class="text-3xl">👻</span>-->
+              <div class="max-w-lg w-full">
+                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_fly.png" alt="Open SysConf 2026">
+              </div>
             </div>
             <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
             <p class="text-xs text-green-400 mb-2">Speaker Job</p>
@@ -102,7 +108,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
           <!-- 3 -->
           <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
             <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">
-              <span class="text-3xl">🤖</span>
+<!--              <span class="text-3xl">🤖</span>-->
+              <div class="max-w-lg w-full">
+                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo-cactus.png" alt="Open SysConf 2026">
+              </div>
             </div>
             <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
             <p class="text-xs text-green-400 mb-2">Speaker Job</p>
@@ -114,7 +123,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
           <!-- 4 -->
           <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
             <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">
-              <span class="text-3xl">👾</span>
+<!--              <span class="text-3xl">👾</span>-->
+              <div class="max-w-lg w-full">
+                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_alien.png" alt="Open SysConf 2026">
+              </div>
             </div>
             <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
             <p class="text-xs text-green-400 mb-2">Speaker Job</p>
@@ -126,7 +138,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
           <!-- 5 -->
           <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
             <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">
-              <span class="text-3xl">🛸</span>
+<!--              <span class="text-3xl">🛸</span>-->
+              <div class="max-w-lg w-full">
+                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_car.png" alt="Open SysConf 2026">
+              </div>
             </div>
             <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
             <p class="text-xs text-green-400 mb-2">Speaker Job</p>
@@ -138,7 +153,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
           <!-- 6 -->
           <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
             <div class="w-24 h-24  rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">
-              <span class="text-3xl">🐲</span>
+<!--              <span class="text-3xl">🐲</span>-->
+              <div class="max-w-lg w-full">
+                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo.png" alt="Open SysConf 2026">
+              </div>
             </div>
             <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
             <p class="text-xs text-green-400 mb-2">Speaker Job</p>
@@ -153,7 +171,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
         <div class="w-full flex justify-center mt-6">
           <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
             <div class="w-24 h-24 rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">
-              <span class="text-3xl">👽</span>
+<!--              <span class="text-3xl">👽</span>-->
+              <div class="max-w-lg w-full">
+                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_head.png" alt="Open SysConf 2026">
+              </div>
             </div>
             <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
             <p class="text-xs text-green-400 mb-2">Speaker Job</p>
