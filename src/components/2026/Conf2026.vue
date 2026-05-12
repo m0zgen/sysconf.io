@@ -56,7 +56,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
 
       <!-- Speech stats -->
       <p class="text-sm md:text-base">
-        <span class="text-white">Доклады → </span> в процессе
+        <span class="text-white">Доклады → </span> 3
       </p>
 
       <!-- Place and Date -->
@@ -77,7 +77,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- 1 -->
           <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
-            <div class="w-24 h-24 rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">
+            <div class="w-24 h-24 rounded-full <>bg-purple-600/30 </> mb-4 overflow-hidden flex items-center justify-center">
 <!--              <span class="text-3xl">🍀</span>-->
               <div class="max-w-lg w-full">
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_stars.png" alt="Open SysConf 2026">
