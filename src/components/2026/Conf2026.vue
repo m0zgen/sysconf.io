@@ -13,7 +13,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
     <main class="relative z-10 flex flex-col items-center justify-center flex-1 max-w-2xl w-full space-y-6">
 
       <!-- Logo 2025 -->
-      <div class="max-w-lg w-full">
+      <div id="logo" class="max-w-lg w-full">
         <img class="w-full mx-auto" src="@/assets/images/2026/open-sysconf-logo-2026-old-style.png" alt="Open SysConf 2026">
       </div>
 
@@ -245,14 +245,21 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
 <!--      </section>-->
 
       <section>
-              <div class="mt-10 flex justify-center">
-                <a
-                    href="/"
-                    class="bg-transparent border border-sysconf-green text-white px-6 py-3 hover:bg-sysconf-green hover:text-green-300 transition font-semibold"
-                >
-                  на Главную
-                </a>
-              </div>
+        <div class="mt-10 flex justify-center gap-4 flex-wrap">
+          <a
+              href="/"
+              class="bg-transparent border border-sysconf-green text-white px-6 py-3 hover:bg-sysconf-green hover:text-green-300 transition font-semibold"
+          >
+            на Главную
+          </a>
+
+          <a
+              href="#logo"
+              class="bg-transparent border border-sysconf-green text-white px-6 py-3 hover:bg-sysconf-green hover:text-green-300 transition font-semibold"
+          >
+            Наверх ↑
+          </a>
+        </div>
       </section>
 
 
