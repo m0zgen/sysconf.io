@@ -61,8 +61,13 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
 
       <!-- Place and Date -->
       <p class="text-sm md:text-base">
-        <span class="text-white">Алматы, Казахстан → </span> в процессе
-<!--        Октябрь 2026 года, 10:00 утра.-->
+        <span class="text-white">ALA, KZ → </span>
+        10 Oct 2026 г, 10:00 AM.
+      </p>
+
+      <p class="text-sm md:text-base">
+        <span class="text-white">SmartPoint → </span>
+        Freedom Amphitheatre
       </p>
 
       <!-- Place and Date -->
@@ -72,7 +77,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
 
       <!-- Spikers section -->
       <section class="w-full mt-16">
-        <h2 class="text-xl md:text-2xl font-bold mb-8">Наши спикеры</h2>
+        <h2 class="text-xl md:text-2xl font-bold mb-8">Спикеры</h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- 1 -->
@@ -189,18 +194,18 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
 
 
       <!-- 📍 Локация -->
-<!--      <section class="w-full mt-24 text-center">-->
-<!--        <h2 class="text-xl md:text-2xl font-bold mb-4">Локация</h2>-->
-<!--&lt;!&ndash;        <p class="text-purple-400 mb-6">Smart.Point Almaty</p>&ndash;&gt;-->
-<!--        <div class="max-w-3xl mx-auto overflow-hidden shadow-lg border border-sysconf-green">-->
-<!--          <img src="@/assets/images/smartpoint-location.jpg" alt="Smartpoint Almaty" class="w-full object-cover" />-->
-<!--          <a href="https://go.2gis.com/DxUeW" target="_blank" class="text-white">🔗 2Gis</a>-->
-<!--        </div>-->
-<!--      </section>-->
+      <section class="w-full mt-24 text-center">
+        <h2 class="text-xl md:text-2xl font-bold mb-4">Локация</h2>
+<!--        <p class="text-purple-400 mb-6">Smart.Point Almaty</p>-->
+        <div class="max-w-3xl mx-auto overflow-hidden shadow-lg border border-purple-600">
+          <img src="@/assets/images/smartpoint-location-purple2.png" alt="Smartpoint Almaty" class="w-full object-cover" />
+          <a href="https://go.2gis.com/DxUeW" target="_blank" class="text-white">🔗 Open 2Gis</a>
+        </div>
+      </section>
 
       <!-- 🧑‍💻 Имена участников -->
       <section class="w-full mt-20 text-center">
-        <h2 class="text-xl md:text-2xl font-bold mb-6">Поддержка</h2>
+        <h2 id="support" class="text-xl md:text-2xl font-bold mb-6">Поддержка</h2>
         <div class="flex flex-wrap justify-center gap-4 text-sysconf-green text-sm md:text-base font-mono">
           <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Егор</span>
           <a href="https://t.me/onebrick" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
