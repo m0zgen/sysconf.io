@@ -88,7 +88,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_stars.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
+            <h3 class="text-lg font-semibold mb-1">Place is taken</h3>
             <p class="text-xs text-green-400 mb-2">Speaker Job</p>
             <p class="text-sm text-green-300 text-center">
               Speech
@@ -103,7 +103,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_fly.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
+            <h3 class="text-lg font-semibold mb-1">Place is taken</h3>
             <p class="text-xs text-green-400 mb-2">Speaker Job</p>
             <p class="text-sm text-green-300 text-center">
               Speech
@@ -181,7 +181,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_head.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
+            <h3 class="text-lg font-semibold mb-1">Place is taken</h3>
             <p class="text-xs text-green-400 mb-2">Speaker Job</p>
             <p class="text-sm text-green-300 text-center">
               Speech
