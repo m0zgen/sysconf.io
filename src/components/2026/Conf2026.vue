@@ -194,14 +194,14 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
 
 
       <!-- 📍 Локация -->
-      <section class="w-full mt-24 text-center">
-        <h2 class="text-xl md:text-2xl font-bold mb-4">Локация</h2>
-<!--        <p class="text-purple-400 mb-6">Smart.Point Almaty</p>-->
-        <div class="max-w-3xl mx-auto overflow-hidden shadow-lg border border-purple-600">
-          <img src="@/assets/images/smartpoint-location-purple2.png" alt="Smartpoint Almaty" class="w-full object-cover" />
-          <a href="https://go.2gis.com/DxUeW" target="_blank" class="text-white">🔗 Open 2Gis</a>
-        </div>
-      </section>
+<!--      <section class="w-full mt-24 text-center">-->
+<!--        <h2 class="text-xl md:text-2xl font-bold mb-4">Локация</h2>-->
+<!--&lt;!&ndash;        <p class="text-purple-400 mb-6">Smart.Point Almaty</p>&ndash;&gt;-->
+<!--        <div class="max-w-3xl mx-auto overflow-hidden shadow-lg border border-purple-600">-->
+<!--          <img src="@/assets/images/smartpoint-location-purple2.png" alt="Smartpoint Almaty" class="w-full object-cover" />-->
+<!--          <a href="https://go.2gis.com/DxUeW" target="_blank" class="text-white">🔗 Open 2Gis</a>-->
+<!--        </div>-->
+<!--      </section>-->
 
       <!-- 🧑‍💻 Имена участников -->
       <section class="w-full mt-20 text-center">
