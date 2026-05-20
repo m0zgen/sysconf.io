@@ -207,7 +207,9 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
       <section class="w-full mt-20 text-center">
         <h2 id="support" class="text-xl md:text-2xl font-bold mb-6">Поддержка</h2>
         <div class="flex flex-wrap justify-center gap-4 text-sysconf-green text-sm md:text-base font-mono">
-          <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">🚀 Егор</span>
+          <a href="https://t.me/rustc" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
+            🚀 @rustc
+          </a>
           <a href="https://t.me/onebrick" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
             @manfromkz
           </a>
