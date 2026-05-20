@@ -103,10 +103,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_fly.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Place is taken</h3>
-            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <h3 class="text-lg font-semibold mb-1">Thatskriptkid</h3>
+            <p class="text-xs text-green-400 mb-2">Malware analyst, threat hunter, vulnerability researcher</p>
             <p class="text-sm text-green-300 text-center">
-              Speech
+              AI for cybersecurity
             </p>
           </div>
 
@@ -181,10 +181,13 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_head.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Place is taken</h3>
-            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <h3 class="text-lg font-semibold mb-1">Uncle Eugene</h3>
+            <p class="text-xs text-green-400 mb-2">Security DNA <a href="https://openbld.net" target="_blank" class="px-3 py-1 bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
+              OpenBLD.net
+            </a></p>
+
             <p class="text-sm text-green-300 text-center">
-              Speech
+              DPI so-SNI
             </p>
           </div>
         </div>
