@@ -217,14 +217,16 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
             @manfromkz
           </a>
           <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Есенай</span>
-          <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Бауыржан</span>
-          <a href="https://t.me/sysadm_in_channel" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
-            @sysadminkz
+          <a href="https://t.me/orderofsixangles" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
+            @Thatskriptkid
           </a>
           <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Алибек</span>
           <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Василий</span>
           <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">😼 Leo</span>
           <span class="px-3 py-1 bg-purple-900/30 border border-purple-500 text-white">Наиль</span>
+          <a href="https://t.me/sysadm_in_channel" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
+            @sysadminkz
+          </a>
 
 
         </div>
