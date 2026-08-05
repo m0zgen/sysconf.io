@@ -88,10 +88,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_stars.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Place is taken</h3>
-            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <h3 class="text-lg font-semibold mb-1">@Prometheus</h3>
+            <p class="text-xs text-green-400 mb-2">Electronics - 6 years, Security - 4 years, RF - 3 years</p>
             <p class="text-sm text-green-300 text-center">
-              Speech
+              Криминалистика и защита КИИ
             </p>
           </div>
 
@@ -103,7 +103,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_fly.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Thatskriptkid</h3>
+            <h3 class="text-lg font-semibold mb-1">@Thatskriptkid</h3>
             <p class="text-xs text-green-400 mb-2">Malware analyst, threat hunter, vulnerability researcher</p>
             <p class="text-sm text-green-300 text-center">
               AI for cybersecurity
@@ -118,10 +118,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo-cactus.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
-            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <h3 class="text-lg font-semibold mb-1">Sairan</h3>
+            <p class="text-xs text-green-400 mb-2">DevOps TeamLead</p>
             <p class="text-sm text-green-300 text-center">
-              Speech
+              SeLinux
             </p>
           </div>
 
@@ -133,10 +133,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_alien.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
-            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <h3 class="text-lg font-semibold mb-1">Maxat</h3>
+            <p class="text-xs text-green-400 mb-2">Magnum Cash & Carry</p>
             <p class="text-sm text-green-300 text-center">
-              Speech
+              Kubescape
             </p>
           </div>
 
