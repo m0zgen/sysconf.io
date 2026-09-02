@@ -118,10 +118,10 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo-cactus.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Sairan</h3>
-            <p class="text-xs text-green-400 mb-2">DevOps TeamLead</p>
+            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
+            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
             <p class="text-sm text-green-300 text-center">
-              SeLinux
+              Speech subject
             </p>
           </div>
 
