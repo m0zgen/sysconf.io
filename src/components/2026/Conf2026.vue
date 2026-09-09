@@ -133,7 +133,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_alien.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Maxat</h3>
+            <h3 class="text-lg font-semibold mb-1">Maxat?</h3>
             <p class="text-xs text-green-400 mb-2">Magnum Cash & Carry</p>
             <p class="text-sm text-green-300 text-center">
               Kubescape
@@ -181,13 +181,14 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_head.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Uncle Yevgeniy</h3>
+            <h3 class="text-lg font-semibold mb-1">@sysadminkz</h3>
             <p class="text-xs text-green-400 mb-2">Security DNA <a href="https://openbld.net" target="_blank" class="px-3 py-1 bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
               OpenBLD.net
             </a></p>
 
             <p class="text-sm text-green-300 text-center">
-              DPI so-SNI
+              DPI so-SNI/XDP/TGN?
+              (в поиске темы)
             </p>
           </div>
         </div>
