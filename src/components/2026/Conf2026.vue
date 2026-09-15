@@ -89,7 +89,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
               </div>
             </div>
             <h3 class="text-lg font-semibold mb-1">@Prometheus</h3>
-            <p class="text-xs text-green-400 mb-2">Electronics - 6 years, Security - 4 years, RF - 3 years</p>
+            <p class="text-xs text-green-400 mb-2">Electronics - 6 years, Security - 4 years, RF - 3 years. HFE/HPM/RF-systems в NDA.</p>
             <p class="text-sm text-green-300 text-center">
               Криминалистика и защита КИИ
             </p>
@@ -118,57 +118,58 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo-cactus.png" alt="Open SysConf 2026">
               </div>
             </div>
-            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
-            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
+            <h3 class="text-lg font-semibold mb-1">@cocomelonc</h3>
+            <p class="text-xs text-green-400 mb-2">cybersecurity enthusiast, спикер, математик.
+              автор популярных книг по malware R&D</p>
             <p class="text-sm text-green-300 text-center">
-              Speech subject
+              N-click  attacks
             </p>
           </div>
 
           <!-- 4 -->
-          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
-            <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">
-<!--              <span class="text-3xl">👾</span>-->
-              <div class="max-w-lg w-full">
-                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_alien.png" alt="Open SysConf 2026">
-              </div>
-            </div>
-            <h3 class="text-lg font-semibold mb-1">Maxat?</h3>
-            <p class="text-xs text-green-400 mb-2">Magnum Cash & Carry</p>
-            <p class="text-sm text-green-300 text-center">
-              Kubescape
-            </p>
-          </div>
+<!--          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">-->
+<!--            <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">-->
+<!--&lt;!&ndash;              <span class="text-3xl">👾</span>&ndash;&gt;-->
+<!--              <div class="max-w-lg w-full">-->
+<!--                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_alien.png" alt="Open SysConf 2026">-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <h3 class="text-lg font-semibold mb-1">Maxat?</h3>-->
+<!--            <p class="text-xs text-green-400 mb-2">Magnum Cash & Carry</p>-->
+<!--            <p class="text-sm text-green-300 text-center">-->
+<!--              Kubescape-->
+<!--            </p>-->
+<!--          </div>-->
 
-          <!-- 5 -->
-          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
-            <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">
-<!--              <span class="text-3xl">🛸</span>-->
-              <div class="max-w-lg w-full">
-                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_car.png" alt="Open SysConf 2026">
-              </div>
-            </div>
-            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
-            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
-            <p class="text-sm text-green-300 text-center">
-              Speech
-            </p>
-          </div>
+<!--          &lt;!&ndash; 5 &ndash;&gt;-->
+<!--          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">-->
+<!--            <div class="w-24 h-24  rounded-full bg-purple-600/30 mb-4 overflow-hidden flex items-center justify-center">-->
+<!--&lt;!&ndash;              <span class="text-3xl">🛸</span>&ndash;&gt;-->
+<!--              <div class="max-w-lg w-full">-->
+<!--                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_car.png" alt="Open SysConf 2026">-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>-->
+<!--            <p class="text-xs text-green-400 mb-2">Speaker Job</p>-->
+<!--            <p class="text-sm text-green-300 text-center">-->
+<!--              Speech-->
+<!--            </p>-->
+<!--          </div>-->
 
-          <!-- 6 -->
-          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
-            <div class="w-24 h-24  rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">
-<!--              <span class="text-3xl">🐲</span>-->
-              <div class="max-w-lg w-full">
-                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo.png" alt="Open SysConf 2026">
-              </div>
-            </div>
-            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>
-            <p class="text-xs text-green-400 mb-2">Speaker Job</p>
-            <p class="text-sm text-green-300 text-center">
-              Speech
-            </p>
-          </div>
+<!--          &lt;!&ndash; 6 &ndash;&gt;-->
+<!--          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">-->
+<!--            <div class="w-24 h-24  rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">-->
+<!--&lt;!&ndash;              <span class="text-3xl">🐲</span>&ndash;&gt;-->
+<!--              <div class="max-w-lg w-full">-->
+<!--                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo.png" alt="Open SysConf 2026">-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <h3 class="text-lg font-semibold mb-1">Speaker Name</h3>-->
+<!--            <p class="text-xs text-green-400 mb-2">Speaker Job</p>-->
+<!--            <p class="text-sm text-green-300 text-center">-->
+<!--              Speech-->
+<!--            </p>-->
+<!--          </div>-->
 
         </div>
 
@@ -187,8 +188,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
             </a></p>
 
             <p class="text-sm text-green-300 text-center">
-              DPI so-SNI/XDP/TGN?
-              (в поиске темы)
+              DPI so-SNI/XDP/TGN
             </p>
           </div>
         </div>
