@@ -229,6 +229,9 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
           <a href="https://www.linkedin.com/in/stanislav-istyagin/" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
             Stanislav I.
           </a>
+          <a href="https://qosi.kz/" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
+            Qasym
+          </a>
           <a href="https://t.me/sysadm_in_channel" target="_blank" rel="noopener noreferrer" class="px-3 py-1 border border-purple-500 rounded-md bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
             @sysadminkz
           </a>
@@ -238,23 +241,26 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
       </section>
 
       <!-- 🧩 Партнёры -->
-<!--      <section class="w-full mt-16 text-center">-->
-<!--        <h2 class="text-xl md:text-2xl font-bold mb-6">При поддержке</h2>-->
-<!--        <div class="flex flex-wrap justify-center gap-8 items-center">-->
-<!--          <a href="https://lab.sys-adm.in" target="_blank" rel="noopener noreferrer">-->
-<!--            <img src="@/assets/logos/lab.sys-adm.in-logo.png" alt="Sys-Adm.in Lab" class="h-16 md:h-24 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />-->
-<!--          </a>-->
+      <section class="w-full mt-16 text-center">
+        <h2 class="text-xl md:text-2xl font-bold mb-6">thx</h2>
+        <div class="flex flex-wrap justify-center gap-8 items-center">
+          <a href="https://lab.sys-adm.in" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/logos/lab.sys-adm.in-logo.png" alt="Sys-Adm.in Lab" class="h-8 md:h-16 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />
+          </a>
+          <a href="https://weirdflex.kz/" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/logos/wierd-flex-logo.webp" alt="Sys-Adm.in Lab" class="h-8 md:h-16 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />
+          </a>
 <!--          <a href="https://profit.kz" target="_blank" rel="noopener noreferrer">-->
-<!--            <img src="@/assets/logos/logo-profit.kz.png" alt="Profit.kz" class="h-16 md:h-24 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />-->
+<!--            <img src="@/assets/logos/logo-profit.kz.png" alt="Profit.kz" class="h-8 md:h-16 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />-->
 <!--          </a>-->
-<!--          <a href="https://qosi.kz" target="_blank" rel="noopener noreferrer">-->
-<!--            <img src="@/assets/logos/logo-qosi.kz.png" alt="QOSI.kz" class="h-16 md:h-24 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />-->
-<!--          </a>-->
-<!--          <a href="https://do-tek.io" target="_blank" rel="noopener noreferrer">-->
-<!--            <img src="@/assets/logos/Do-Tek-Logo-Cutted.png" alt="Do-Tek LLC" class="h-16 md:h-24 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />-->
-<!--          </a>-->
-<!--        </div>-->
-<!--      </section>-->
+          <a href="https://qosi.kz" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/logos/logo-qosi.kz.png" alt="QOSI.kz" class="h-8 md:h-16 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />
+          </a>
+          <a href="https://do-tek.io" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/logos/Do-Tek-Logo-Cutted.png" alt="Do-Tek LLC" class="h-8 md:h-16 object-contain transition duration-300 hover:scale-105 hover:drop-shadow-[0_0_8px_#00FF00]" />
+          </a>
+        </div>
+      </section>
 
       <section>
         <div class="mt-10 flex justify-center gap-4 flex-wrap">
