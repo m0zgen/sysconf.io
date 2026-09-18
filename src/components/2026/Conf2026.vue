@@ -175,9 +175,25 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
 
         <!-- 7 -->
         <div class="w-full flex justify-center mt-6">
-          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
+
+          <div class="mr-4 glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
             <div class="w-24 h-24 rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">
 <!--              <span class="text-3xl">👽</span>-->
+              <div class="max-w-lg w-full">
+                <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_alien.png" alt="Open SysConf 2026">
+              </div>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Alexander G</h3>
+            <p class="text-xs text-green-400 mb-2">Lead Detection Engineer, PS SOC</p>
+
+            <p class="text-sm text-green-300 text-center">
+              Степени параноИИ
+            </p>
+          </div>
+
+          <div class="glitch-card flex flex-col items-center p-4 border border-purple-700 text-sysconf-green bg-transparent transition hover:bg-sysconf-green/10">
+            <div class="w-24 h-24 rounded-full bg-purple-600/30  mb-4 overflow-hidden flex items-center justify-center">
+              <!--              <span class="text-3xl">👽</span>-->
               <div class="max-w-lg w-full">
                 <img class="w-full mx-auto" src="@/assets/images/2026/icons/ufo_head.png" alt="Open SysConf 2026">
               </div>
@@ -185,7 +201,7 @@ import MatrixRain from "@/components/reusable/MatrixRainv2.vue";
             <h3 class="text-lg font-semibold mb-1">@sysadminkz</h3>
             <p class="text-xs text-green-400 mb-2">Security DNA <a href="https://openbld.net" target="_blank" class="px-3 py-1 bg-purple-900/30 hover:bg-purple-800/50 text-purple-300 hover:text-green-100 transition">
               OpenBLD.net
-            </a></p>
+            </a>, geek</p>
 
             <p class="text-sm text-green-300 text-center">
               DPI so-SNI/XDP/TGN
